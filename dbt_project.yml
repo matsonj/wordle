@@ -32,4 +32,6 @@ models:
   wordle:
     first_word:
       +materialized: table
+    second_word:
+      +materialized: table
 
