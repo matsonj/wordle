@@ -1,3 +1,8 @@
+{{ config(
+    tags=["old"]
+) }}
+
+
 select * from public.wordle
 where 
 word like ('%s%')
