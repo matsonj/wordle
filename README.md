@@ -1,6 +1,6 @@
-# Wordle Analytics 
+# Wordle Analytics - dbt
 Wordle is a fun game, but I couldn't resist knowing what a great first / second word choice would be.
-
+As an experiment, we are integrating the views with dbt to see if it is faster.
 
 
 # Best first word
