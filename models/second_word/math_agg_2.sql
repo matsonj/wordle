@@ -2,13 +2,14 @@
     tags=["new","second"]
 ) }}
 
-select
-guess,
-sum(total),
-avg(total) avg,
-stddev(total),
-max(total),
-min(total)
+SELECT
+  g1,
+  g2,
+  SUM(total) sum,
+  AVG(total) avg,
+  stddev(total) stddev,
+  MAX(total) max,
+  MIN(total) min
 from {{ ref( 'count_answers_2' ) }}
-group by guess
+group by g1, g2
 order by avg desc
