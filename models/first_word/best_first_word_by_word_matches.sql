@@ -1,3 +1,7 @@
+{{ config(
+    tags=["old"]
+) }}
+
 WITH oneletter as (
 
 SELECT 
