@@ -1,5 +1,5 @@
 --If no matches on the first word, best second word
-select * from public.wordle
+select * from {{ ref( 'wordle' ) }}
 where 
 word like ('%i%')
 and
