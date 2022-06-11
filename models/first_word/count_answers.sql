@@ -1,6 +1,5 @@
 {{ config(
-    tags=["new"],
-    materialized = "view"
+    tags=["new"]
 ) }}
 
 select 
