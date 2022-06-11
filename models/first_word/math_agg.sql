@@ -1,5 +1,6 @@
 {{ config(
-    tags=["new"]
+    tags=["new"],
+    materialized="table"
 ) }}
 
 select
